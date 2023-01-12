@@ -1,0 +1,15 @@
+{
+  "name": "frontend_project",
+  "version": "1.0.0",
+  "description": "Responsive crocheting website",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "author": "Viia Mäntymäki",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.9.2",
+    "sass": "^1.57.1"
+  }
+}
