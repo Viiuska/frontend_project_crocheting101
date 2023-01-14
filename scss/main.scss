@@ -81,6 +81,40 @@ main {
     
 }
 
+.toolsInfo{
+    display: grid;
+    grid-gap: 30px;
+    grid-template-areas: 
+    'info info'
+    'tool1 tool2'
+    'tool3 tool4';
+    grid-template-columns: repeat(2, 1fr);
+
+    .info{
+        grid-area: info;
+        font-size: 1.2rem
+    }
+    
+    .tool-1{
+        grid-area: tool1;
+    }
+    .tool-2{
+        grid-area: tool2;
+    }
+    .tool-3{
+        grid-area: tool3;
+    }
+    .tool-4{
+        grid-area: tool4;
+    }
+    
+    .tool{
+        background: lighten($primary-color, 3);
+        padding: 0.5rem;
+        border-bottom: $secondary-color 5px solid;
+    }
+}
+
 
 
 #main-footer{
