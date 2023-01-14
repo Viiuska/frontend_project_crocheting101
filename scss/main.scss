@@ -1,6 +1,5 @@
 @import 'config';
 @import 'menu';
-@import 'mobile';
 
 *{
     box-sizing: border-box;
@@ -8,7 +7,7 @@
 
 body{
     background: $primary-color;
-    color: #fff;
+    color: set-text-color($primary-color);
     height: 100%;
     margin: 0;
     font-family: cursive;
@@ -49,14 +48,47 @@ header{
     color:$secondary-color
 }
 
-main{
+main {
     padding: 4rem;
-    height: 100%;
+    //height: 100%;
+    min-height: calc(100vh - 60px);
 
+    .icons {
+        margin-top: 1rem;
+
+        a{
+            padding: 0.8rem;
+            &:hover{
+                color: $secondary-color;
+                @include easeOut()
+            }
+        }
+    }
     &#home{
         overflow: hidden;
         h1{
-            margin-top: 10vh;
+            margin-top: 20vh;
         }
     }
 }
+
+.aboutInfo{
+    font-size: 1.2rem
+}
+
+.contact{
+    font-size: 2rem;
+    
+}
+
+
+
+#main-footer{
+    text-align: center;
+    padding: 1rem;
+    background: darken($primary-color, 10);
+    color: set-text-color($primary-color);
+    height: 60px;
+}
+
+@import 'mobile';
