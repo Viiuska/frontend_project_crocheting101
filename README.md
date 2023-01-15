@@ -2,7 +2,7 @@
 
 Anytime-course: Software Development Skills: Front-End 2022-23  
 
-The course beging with tasklist where I learned responsiviness, Sass, flexbox, navigation button and much more. You can find the result from gitHub: https://github.com/Viiuska/Frontend_part_1 and view it from https://viiuska.github.io/Frontend_part_1
+The course begins with tasklist where I learned responsiviness, Sass, flexbox, navigation button and much more. You can find the result from gitHub: https://github.com/Viiuska/Frontend_part_1 and view it from https://viiuska.github.io/Frontend_part_1
 
 
 In this course, the course project had to meet 4 criteria  
