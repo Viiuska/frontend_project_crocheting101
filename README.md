@@ -15,4 +15,6 @@ I made Crochetin 101 website because I have been lately into crocheting. Being b
 
 I kept a learning diary throughout the course. You can follow my front-end course in more detail:https://lut-my.sharepoint.com/:w:/g/personal/viia_mantymaki_student_lut_fi/EaPyHrl8eXBIpcXdfem8-N8BOT-Lv7K4M8tmi9_B_CHtMQ?e=GQPzeI
 
+You can visit the site: https://viiuska.github.io/frontend_project_crocheting101/
+
 Demo video: https://drive.google.com/file/d/18KmQURXvBk8UnKg2wxzYiHO4xcQBlxpv/view?usp=share_link
