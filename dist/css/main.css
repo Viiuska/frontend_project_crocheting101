@@ -171,6 +171,30 @@ main {
       width: 100%;
       border: #fff 3px solid; }
 
+.textInfo {
+  font-size: 1.2rem; }
+
+.projectsInfo {
+  font-size: 1.2rem; }
+
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 2rem; }
+  .boxes div {
+    border: 3px #6e4377 solid;
+    padding: 1.5rem 2.5 rem;
+    margin-bottom: 3rem;
+    transition: all 0.5s ease-out; }
+    .boxes div:hover {
+      padding: 0.5rem 1.5rem;
+      background: #6e4377;
+      color: #000; }
+      .boxes div:hover span {
+        color: #000; }
+
 #main-footer {
   text-align: center;
   padding: 1rem;

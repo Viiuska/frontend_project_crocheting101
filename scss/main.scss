@@ -125,13 +125,46 @@ main {
         padding: 0.5rem;
         border-bottom: $secondary-color 5px solid;
 
-    img{
-        width: 100%;
-        border: #fff 3px solid;
-        }
+        img{
+            width: 100%;
+            border: #fff 3px solid;
+            }
 
         }
         
+}
+
+.textInfo{
+    font-size: 1.2rem;
+}
+
+.projectsInfo{
+    font-size: 1.2rem;
+}
+
+.boxes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 2rem;
+
+    div{
+        //font-size: 2rem;
+        border: 3px $secondary-color solid;
+        padding: 1.5rem 2.5 rem;
+        margin-bottom: 3rem;
+        @include easeOut;
+
+        &:hover{
+            padding: 0.5rem 1.5rem;
+            background: $secondary-color;
+            color: set-text-color($secondary-color);
+            span{
+                color: set-text-color($secondary-color);
+            }
+        }
+    }
 }
 
 
