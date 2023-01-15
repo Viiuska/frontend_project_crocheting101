@@ -159,12 +159,32 @@ main {
     padding: 0.5rem;
     border-bottom: #6e4377 5px solid; }
 
+.stitches {
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: repeat(2, 1fr); }
+  .stitches .item {
+    background: #cfc0d2;
+    padding: 0.5rem;
+    border-bottom: #6e4377 5px solid; }
+    .stitches .item img {
+      width: 100%;
+      border: #fff 3px solid; }
+
 #main-footer {
   text-align: center;
   padding: 1rem;
   background: #b199b7;
   color: #fff;
   height: 60px; }
+
+@media screen and (min-width: 1171px) {
+  .stitches {
+    grid-template-columns: repeat(4, 1fr); } }
+
+@media screen and (min-width: 769px) and (max-width: 1170px) {
+  .stitches {
+    grid-template-columns: repeat(3, 1fr); } }
 
 @media screen and (max-width: 768px) {
   main {
@@ -188,8 +208,12 @@ main {
     transform: translate3d(100%, 0, 0); }
   .toolsInfo {
     grid-template-areas: 'info' 'tool1'  'tool2' 'tool3'  'tool4';
-    grid-template-columns: 1fr; } }
+    grid-template-columns: 1fr; }
+  .stitches {
+    grid-template-columns: repet(2, 1fr); } }
 
 @media screen and (max-width: 500px) {
   main#home h1 {
-    margin-top: 10vh; } }
+    margin-top: 10vh; }
+  .stitches {
+    grid-template-columns: 1fr; } }

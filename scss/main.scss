@@ -115,6 +115,24 @@ main {
     }
 }
 
+.stitches{
+    display: grid;
+    grid-gap:30px;
+    grid-template-columns: repeat(2, 1fr);
+
+    .item{
+        background: lighten($primary-color, 3);
+        padding: 0.5rem;
+        border-bottom: $secondary-color 5px solid;
+
+    img{
+        width: 100%;
+        border: #fff 3px solid;
+        }
+
+        }
+        
+}
 
 
 #main-footer{
