@@ -17,7 +17,7 @@ I made Crochetin 101 website because I have been lately into crocheting. Being b
 
 I kept a learning diary throughout the course. You can follow my front-end course in more detail:https://lut-my.sharepoint.com/:w:/g/personal/viia_mantymaki_student_lut_fi/EaPyHrl8eXBIpcXdfem8-N8BOT-Lv7K4M8tmi9_B_CHtMQ?e=GQPzeI
 
-To run this in Visual Studio Code go to th terminal and write 'npm run sass' and to see it go example index.html and left click and click the 'Open with Live Server'.
+To run this in Visual Studio Code go to th terminal and write 'npm run sass' and to see it go example index.html and right click and click the 'Open with Live Server'.
 
 You can visit the site: https://viiuska.github.io/frontend_project_crocheting101/
 
